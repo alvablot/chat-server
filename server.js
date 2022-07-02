@@ -8,7 +8,7 @@ const fs = require("fs");
 const port = 3000;
 const io = new Server(httpServer, {
   cors: {
-    origin: ["http://localhost:8080", "https://admin.socket.io"],
+    origin: ["http://localhost:8080"],
     allowedHeaders: ["GET", "POST"],
     credentials: true,
   },
